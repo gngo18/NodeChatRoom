@@ -1,7 +1,7 @@
 //First need to import the good good from the packages by using the require keyword
 
-var express= require("express")
-var app= express();
+var express = require("express")
+var app = express();
 var http = require("http").Server(app);
 var io = require("socket.io")(http); //IO is how we are going to be communicating between clients
 
